@@ -1,0 +1,18 @@
+[
+  {
+    "app_id": "APP01",
+    "app_name": "abc",
+    "app_date": "2026-10-30",
+    "loan_amount": 900000,
+    "property_purchase_price": 1000000,
+    "monthly_gross_income": 100000
+  },
+  {
+    "app_id": "APP02",
+    "app_name": "xyz",
+    "app_date": "2026-10-30",
+    "loan_amount": 500000,
+    "property_price": 900000,
+    "monthly_gross_income": 75000
+  }
+]

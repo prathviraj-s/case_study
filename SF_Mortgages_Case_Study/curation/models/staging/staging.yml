@@ -1,0 +1,19 @@
+version: 2
+
+models:
+
+  - name: stg_mortgage_applications
+    columns:
+
+      - name: application_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: stg_credit_bureau
+    columns:
+
+      - name: application_id
+        data_tests:
+          - not_null
+          - unique

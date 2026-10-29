@@ -1,0 +1,7 @@
+snowflake_organization = "YOUR_ORGANIZATION"
+snowflake_account      = "YOUR_ACCOUNT"
+snowflake_user         = "TERRAFORM_USER"
+snowflake_role = "SYSADMIN"
+database_name  = "MORTGAGE_DB"
+warehouse_name = "MORTGAGE_TRANSFORM_WH"
+warehouse_size = "XSMALL"
