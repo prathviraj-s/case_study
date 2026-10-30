@@ -1,0 +1,24 @@
+
+version: 2
+
+models:
+
+  - name: customer_applications
+    description: >
+      Technically validated mortgage applications joined
+      with credit bureau information.
+
+    columns:
+
+      - name: application_id
+        data_tests:
+          - unique
+          - not_null
+
+      - name: property_price
+        data_tests:
+          - not_null
+
+      - name: fico
+        data_tests:
+          - not_null

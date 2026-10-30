@@ -1,0 +1,20 @@
+Event name:
+    mortgage-application-snowpipe
+
+Prefix:
+    applications/json/
+
+Suffix:
+    .json
+
+Event type:
+    All object create events
+
+Destination:
+    SQS queue
+
+SQS queue:
+    <Enter SQS queue ARN>
+
+ARN:
+    <notification_channel from DESC PIPE>

@@ -1,0 +1,19 @@
+dag_id: gold_hmda_reporting
+
+schedule: "20 * * * *"
+
+layer: gold
+
+dbt_model: hmda_reporting
+
+dependency:
+  type: dag
+  dag_id: gold_underwriting_business_rules
+
+checkpoint:
+  enabled: false
+
+alerting:
+  enabled: true
+  email:
+    - abc@xyz.com
